@@ -1,0 +1,1891 @@
+/*  Css reset   */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Top Black Bar   */
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 81px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.shop-logo {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: auto;
+    align-items: center;
+    justify-content: start;
+}
+
+.fa-cart-shopping {
+    font-size: 26px;
+    padding-right: 20px;
+}
+
+.first-block-top-bar {
+    font-size: 18px;
+}
+
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 300px;
+
+
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding-left: 13px;
+
+}
+
+.fa-phone-volume {
+    font-size: 20px;
+    padding-right: 14px;
+}
+
+.second-block-phone-number {
+    font-size: 19px;
+}
+
+
+.fa-envelope {
+    font-size: 20px;
+    padding-right: 14px;
+}
+
+.third-block-email {
+    font-size: 19px;
+}
+
+
+/* Navigation bar */
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 30px 50px 30px;
+}
+
+.website-logo {
+    width: 139px;
+    height: 56px;
+    padding-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px 0px 50px
+}
+
+nav ul li a {
+    font-size: 23px;
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 10px 0px 10px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.login-search-basket {
+    display: flex;
+    flex-direction: row;
+    width: 670px;
+    padding: 0px 20px 0px 160px;
+    font-size: 21px;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+
+
+div div a {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-decoration: none
+}
+
+.fa-user {
+    padding-right: 10px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+.fa-magnifying-glass {
+
+    padding-right: 10px;
+}
+
+
+
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex: 1;
+}
+
+.fa-bag-shopping {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+/* first three boxes    */
+
+.three-row-boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.iphone-12 {
+    color: white;
+    width: 400px;
+    height: 625px;
+    flex: 1;
+    border-radius: 30px;
+    margin: 10px 32px 10px 32px;
+    background-color: #444444;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iphone-p-and-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 73px;
+}
+
+.iphone-12-p {
+    font-size: 20px;
+    width: 303px;
+    height: 28px;
+
+}
+
+
+.iphone-12-h {
+    font-size: 44px;
+    line-height: 1.2em;
+    letter-spacing: -1.2px;
+    text-transform: capitalize;
+    max-width: 309px;
+}
+
+.iphone-button {
+    padding-left: 44px;
+}
+
+.shop-by-category1 {
+    background-color: rgb(59 130 246 / 0.5);
+
+    padding: 24px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+    width: 236px;
+}
+
+
+.shop-by-category1:hover {
+
+    color: black;
+    background-color: white;
+}
+
+.headphone {
+    color: white;
+    width: 400px;
+    height: 625px;
+    flex: 1;
+    border-radius: 30px;
+    background-color: #ff6900;
+    margin: 10px 32px 10px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headphone-image {
+    position: relative;
+    top: -140px;
+}
+
+
+
+
+.headphone-p-and-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -56px
+}
+
+.headphone-p {
+    width: 244px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+.headphone-h {
+    font-size: 46px;
+    position: relative;
+    left: 66px
+}
+
+.headphone-button {
+    text-align: center;
+    position: relative;
+    top: -42px;
+    left: -18px;
+}
+
+.shop-by-category2 {
+    background-color: #000000;
+
+    padding: 24px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+    width: 236px;
+}
+
+
+.shop-by-category2:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+
+.macbook {
+    color: white;
+    width: 400px;
+    height: 625px;
+    flex: 1;
+    border-radius: 30px;
+    margin: 10px 32px 10px 32px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.macbook-p-and-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+.macbook-p {
+    width: 308px;
+    font-size: 20px;
+}
+
+.macbook-h {
+    font-size: 46px;
+    padding-left: 36px
+}
+
+.macbook-button {
+    height: 197px;
+    padding-left: 33px
+}
+
+.shop-by-category3 {
+    background-color: rgb(59 130 246 / 0.5);
+    ;
+
+    padding: 24px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+    width: 236px;
+}
+
+
+.shop-by-category3:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+/*  4 boxes    */
+
+
+.four-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.iphone-12-again {
+    flex: 1;
+    height: 700px;
+    margin-left: 23px;
+    margin-right: 43px;
+    border-radius: 40px;
+    max-width: 400px;
+    background-color: #444444;
+    color: white;
+}
+
+.iphone-12-again-p-and-h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.iphone-12-again-p {
+    font-size: 20px;
+    position: relative;
+    top: 19px;
+    left: -100px;
+    padding-bottom: 15px;
+
+}
+
+.iphone-12-again-h {
+    font-size: 44px;
+    padding-bottom: 92px;
+    padding-left: 38px;
+    padding-right: 48px
+}
+
+.speaker-image {}
+
+.shop-by-category-iphone-12-again {
+    background-color: #000000;
+    padding: 15px 0px 15px 0px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    width: 196px;
+    margin-left: 27px;
+    margin-top: 17px;
+}
+
+
+.shop-by-category-iphone-12-again:hover {
+    background-color: white;
+    color: #000000;
+
+}
+
+.iphone-12-again-button {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: -74px;
+    left: -87px;
+}
+
+.two-boxes-coloumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    margin-right: 44px;
+
+}
+
+.drone {
+    border-radius: 40px;
+    height: 330px;
+    background-color: #D3D3D3;
+}
+
+
+
+.drone-p-and-h {
+    position: relative;
+    top: 55px
+}
+
+.drone-p {
+    font-size: 20px;
+    padding-bottom: 7px;
+    padding-left: 36px
+}
+
+
+
+.drone-h {
+    padding-left: 34px;
+    font-size: 36px;
+}
+
+
+.drone-h1 {
+    font-size: 36px;
+    padding-left: 34px;
+}
+
+
+.drone-image {
+    text-align: end;
+}
+
+.shop-by-category-drone {
+    background-color: #ffffff;
+    padding: 15px 0px 15px 0px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    width: 196px;
+    margin-left: 27px;
+    margin-top: 17px;
+}
+
+
+.shop-by-category-drone:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.image-drone {
+    position: relative;
+    left: 65px;
+    bottom: 59px;
+    left: 83px
+}
+
+.smart-watch {
+    background-color: #cf2e2e;
+    border-radius: 40px;
+    height: 330px;
+    color: white;
+    max-width: 455px;
+}
+
+
+.smart-watch-p-and-h {
+    position: relative;
+    top: 55px
+}
+
+
+.smart-watch-p {
+    font-size: 20px;
+    padding-bottom: 7px;
+    padding-left: 36px
+}
+
+.smart-watch-h {
+    padding-left: 34px;
+    font-size: 36px;
+}
+
+.smart-watch-h1 {
+    font-size: 36px;
+    padding-left: 34px;
+}
+
+.smart-watch-button {
+    position: relative;
+    top: 51px;
+    left: 22px
+}
+
+.shop-by-category-smart-watch {
+    background-color: #000000;
+    padding: 15px 0px 15px 0px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    width: 196px;
+    margin-left: 27px;
+    margin-top: 17px;
+}
+
+
+.shop-by-category-smart-watch:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.smart-watch-image {
+    position: relative;
+    left: 184px;
+    top: -15px;
+}
+
+.earphone {
+    flex: 1;
+    height: 700px;
+    color: white;
+    border-radius: 40px;
+    background-color: #000000;
+}
+
+.earphone-p-and-h {
+    padding-top: 81px;
+    padding-left: 15px;
+    padding-bottom: 29px;
+}
+
+.earphone-12-p {
+    font-size: 22px;
+    margin-left: 25px
+}
+
+.earphone-12-h {
+    font-size: 40px;
+    margin-left: 23px
+}
+
+.earphone-12-h1 {
+    font-size: 40px;
+    margin-left: 23px
+}
+
+.earphone-button {}
+
+.shop-by-category-earphone {
+    background-color: rgb(255, 203, 112);
+    padding: 15px 0px 15px 0px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    width: 196px;
+    margin-left: 27px;
+    margin-top: 17px;
+
+}
+
+
+.shop-by-category-earphone:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.earphone-image {
+    position: relative;
+    top: 103px;
+    left: -29px;
+    padding-left: 9px;
+    padding-right: 10px;
+    padding-top: 13px;
+}
+
+
+
+/* Best Seller Product Part     */
+
+
+.best-seller-product {
+    padding: 20px;
+    padding-top: 110px;
+    padding-bottom: 45px;
+}
+
+
+.main-heading {
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-para {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    opacity: 0.6;
+    padding-top: 4px;
+}
+
+
+/* 8-boxes above  */
+
+.first-4-boxes {
+
+    display: flex;
+
+    height: 366px;
+    margin: 70px 0px;
+}
+
+
+
+
+.box1 {
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    flex: 1;
+    border-radius: 60px;
+    margin: 10px;
+}
+
+
+.camera-image {
+    height: 225px;
+    padding-left: 43px;
+    padding-right: 40px;
+    margin-top: 3px;
+}
+
+.mp-and-box1-dollars {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.box1-last-text {
+    padding: 5px 5px 0px 35px;
+    opacity: 0.6;
+}
+
+
+.box2 {
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    flex: 1;
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+}
+
+.sale {
+    display: inline;
+    border-radius: 50%;
+    padding: 17px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 7%;
+    top: 11%;
+}
+
+.drone-image {
+    height: 224px;
+    padding-left: 43px;
+    padding-right: 40px;
+    margin-top: 2px;
+}
+
+.rm-and-box2-dollars {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.box2-dollars {}
+
+.box2-last-text {
+    padding: 5px 5px 0px 35px;
+    opacity: 0.6;
+}
+
+
+
+.box3 {
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    flex: 1;
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.mr-and-box3-dollars {
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 64%;
+    left: 1%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box3-dollars {
+    opacity: 0.6;
+}
+
+
+.headphone2-image {
+    position: absolute;
+    height: 230px;
+    left: 32px;
+    top: 21px;
+}
+
+.sale-box3 {
+    display: inline;
+    border-radius: 50%;
+    padding: 17px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 7%;
+    top: 11%;
+    z-index: 1;
+}
+
+.flex-last-texts-box3 {
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 71%;
+    left: -1%;
+}
+
+
+.box3-last-text {
+    padding: 5px 5px 0px 35px;
+    opacity: 0.6;
+}
+
+.box3-last-text2 {
+    font-weight: bolder;
+    display: flex;
+    align-items: end;
+}
+
+
+.box4 {
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    flex: 1;
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+}
+
+.laptop-image {
+    height: 230px;
+    position: absolute;
+    left: 9%;
+    top: 6%;
+}
+
+.ma-and-box4-dollars {
+    position: absolute;
+    top: 64%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.box4-last-text {
+    opacity: 0.6;
+    position: absolute;
+    top: 72%;
+    left: 12%;
+}
+
+
+/* 8-boxes below  */
+
+
+
+.last-4-boxes {
+
+    display: flex;
+    height: 366px;
+    margin: 70px 0px;
+
+}
+
+
+
+
+.box5 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+}
+
+.sale-box5 {
+    display: inline;
+    border-radius: 50%;
+    padding: 17px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 7%;
+    top: 11%;
+    z-index: 1;
+
+}
+
+.joystick-image {
+    position: absolute;
+    height: 230px;
+    left: 11%;
+    top: 6%;
+
+}
+
+.sd-and-box5-dollars {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    top: 71%;
+    font-size: 18px;
+
+}
+
+.flex-last-texts-box5 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 80%;
+}
+
+.sd {
+    font-weight: bolder;
+}
+
+.box5-last-text {
+    opacity: 0.6;
+}
+
+.box5-last-text2 {
+    font-weight: bolder;
+}
+
+
+
+
+
+.box6 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+
+}
+
+
+
+
+
+.speaker2-image {
+    position: absolute;
+    height: 230px;
+    width: auto;
+    left: 10%;
+    top: 10%;
+}
+
+.ds-and-box6-dollars {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    top: 71%;
+}
+
+.box6-last-text {
+    opacity: 0.6;
+    position: absolute;
+    top: 80%;
+    left: 8%;
+}
+
+
+.box7 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+
+}
+
+
+.vr-image {
+    position: absolute;
+    height: 230px;
+    width: auto;
+    left: 10%;
+    top: 10%;
+}
+
+.cw-and-box7-dollars {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    top: 71%;
+}
+
+.box7-last-text {
+    opacity: 0.6;
+    position: absolute;
+    top: 80%;
+    left: 12%;
+}
+
+
+.box8 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+
+}
+
+
+.apple-smart-image {
+    position: absolute;
+    height: 230px;
+    width: auto;
+    left: 10%;
+    top: 5%;
+}
+
+.aw-and-box8-dollars {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    top: 71%;
+}
+
+.box8-last-text {
+    opacity: 0.6;
+    position: absolute;
+    top: 80%;
+    left: 11%;
+}
+
+
+/* Laptop Part  */
+
+.the-laptop-part {
+    padding-top: 30px;
+}
+
+.the-laptop-of-tomorrow {
+
+    margin: 30px;
+    border-radius: 36px;
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #1F2220;
+    color: white;
+    height: 422px;
+    position: relative;
+    background-position: initial;
+}
+
+.asus-and-loft {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 18%;
+    top: 4%;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+
+.big-laptop-image {
+    position: absolute;
+    left: 38%;
+    top: -43%;
+}
+
+.asus-para {
+    font-size: 21px;
+}
+
+
+.asus-heading {
+    font-size: 29px;
+}
+
+.shop-laptop {
+    background-color: rgb(155, 81, 224);
+    padding: 11px 0px 11px 0px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    width: 196px;
+    margin-left: -4px;
+    margin-top: 14px;
+}
+
+
+.shop-laptop:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+
+/* New Arrival Product part  */
+
+
+.new-arrival-product {
+    padding: 21px 5px 15px 41px;
+}
+
+
+
+.new-arrival-other-row-stuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.new-arrival-heading {
+    font-size: 40px;
+}
+
+.arrow-left-right {
+    width: 11%;
+    text-align: center;
+}
+
+.fa-arrow-right {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 9px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.fa-arrow-left {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 9px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+.new-arrival-para {
+    padding-top: 4px;
+    padding-left: 2px;
+    opacity: 0.9;
+}
+
+.horizontal-line {
+
+    width: 55%;
+
+}
+
+
+/* Scroll bar    */
+
+.scroll-bar {
+
+    display: flex;
+    padding-top: 90px;
+    flex-direction: row;
+
+}
+
+
+.box1-scroll-bar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px;
+
+
+}
+
+.box1-h1 {
+    padding-right: 63px;
+}
+
+.speaker-image-scroll-bar {
+    border-radius: 50px;
+}
+
+.box1-h1-p1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+
+.box1-p2-p3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+
+.box2-scroll-bar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.graphic-image-scroll-bar {
+    border-radius: 50px;
+}
+
+
+
+.box2-h1-p1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.box2-p2-p3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.box3-scroll-bar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin: 20px;
+
+    border-radius: 20px;
+
+}
+
+
+.mutliroom-image-scroll-bar {
+    border-radius: 50px;
+}
+
+
+
+.box3-h1-p1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.box3-p2-p3 {
+    padding-left: 21px;
+}
+
+
+.box4-scroll-bar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+.iphone-image-scroll-bar {
+    border-radius: 50px;
+}
+
+
+
+.box4-h1-p1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.box4-p2-p3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.box5-scroll-bar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+
+    margin: 20px;
+    border-radius: 20px;
+
+
+}
+
+
+
+.mutliroom-image-scroll-bar {
+    border-radius: 50px;
+}
+
+
+
+.box5-h1-p1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.box5-p2-p3 {
+    padding-left: 21px;
+}
+
+
+.box6-scroll-bar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 20px;
+
+
+}
+
+.vr-image-scroll-bar {
+    border-radius: 50px;
+
+}
+
+
+.box6-h1-p1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.box6-p2-p3 {
+    padding-left: 21px;
+}
+
+
+
+/* two boxes in a row   */
+
+
+
+.two-boxes-row {
+
+    display: flex;
+    padding: 100px 0px 0px 0px;
+
+}
+
+
+.big-camera {
+    flex: 1;
+    background-color: #000000;
+    position: relative;
+    color: white;
+    height: 413px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.big-camera-image {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    left: 45%;
+    top: -2%;
+}
+
+.big-camera-components {
+    position: absolute;
+    left: 9%;
+    top: 33%;
+}
+
+.big-camera-one {
+    font-size: 23px;
+}
+
+.big-camera-second {
+    font-size: 38px;
+}
+
+.big-camera-third {
+    font-size: 38px;
+    padding-bottom: 33px;
+}
+
+.shop-by-category-big-camera {
+    background-color: rgb(59 130 246 / 0.5);
+    padding: 14px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 90%;
+}
+
+
+.shop-by-category-big-camera:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+.big-joystick {
+    flex: 1;
+    background-color: blue;
+    position: relative;
+    height: 413px;
+    color: white;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.big-joystick-image {
+    position: absolute;
+    width: 56%;
+    top: 39%;
+    left: 44%;
+}
+
+.big-joystick-components {
+    position: absolute;
+    left: 9%;
+    top: 33%;
+}
+
+
+.big-joystick-one {
+    font-size: 23px;
+}
+
+
+.big-joystick-second {
+    font-size: 38px;
+
+}
+
+
+.big-joystick-third {
+    font-size: 38px;
+    padding-bottom: 28px;
+}
+
+.shop-by-category-big-joystick {
+    background-color: rgba(243, 246, 59, 0.978);
+    padding: 14px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 90%;
+}
+
+
+
+.shop-by-category-big-joystick:hover {
+
+    background-color: white;
+    color: #000000;
+
+}
+
+
+.latest-post {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+
+/* latest news part boxes  */
+
+.latest-news-boxes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 380px;
+    margin-bottom: 50px;
+
+}
+
+.latest-news-boxe1 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+
+.latest-news-boxe1:hover {
+    background-image: url();
+}
+
+
+
+.latest-news-para-heading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.latest-news-boxe1-one {
+    position: absolute;
+    font-size: 23px;
+    top: 18%;
+    left: 18%;
+}
+
+
+.latest-news-boxe1-three {
+
+    position: absolute;
+    top: 50%;
+    left: 17%;
+
+}
+
+.latest-news-boxe1-two {
+    position: absolute;
+    top: 38%;
+    left: 17%;
+}
+
+.latest-news-boxe1-four {
+    position: absolute;
+    top: 71%;
+    width: 70%;
+    height: 2%;
+    background-color: blue;
+    left: 17%;
+}
+
+.latest-news-boxe1-five {
+    position: absolute;
+    top: 83%;
+    left: 18%;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.arrow {
+    position: absolute;
+    left: 54%;
+    top: 79%;
+    width: 16%;
+    font-size: 30px;
+}
+
+
+
+.latest-news-boxe2 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+
+.latest-news-boxe3 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+
+.latest-news-boxe4 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+
+/* Benefits our website will provide */
+
+.benefits-of-our-service {
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+.benefits-of-our-service-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.benefits-of-our-service-box1 {
+    display: flex;
+    padding: 0px 30px 10px 10px;
+}
+
+
+.benefits-of-our-service-box2 {
+    display: flex;
+    padding: 0px 30px 10px 10px;
+}
+
+
+.benefits-of-our-service-box3 {
+    display: flex;
+    padding: 0px 30px 10px 10px;
+}
+
+
+.benefits-of-our-service-box4 {
+    display: flex;
+    padding: 0px 30px 10px 10px;
+}
+
+.fa-globe {
+    font-size: 40px;
+    padding-right: 20px
+}
+
+.fa-box {
+    font-size: 40px;
+    padding-right: 20px
+}
+
+.fa-money-bill {
+    font-size: 40px;
+    padding-right: 20px
+}
+
+.fa-gift {
+    font-size: 40px;
+    padding-right: 20px
+}
+
+/* Discount box   */
+
+
+.discount-box {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.discount-big-box {
+    display: flex;
+    flex-direction: column;
+    height: 573px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+    border-radius: 90px;
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-1920x1080-1455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.discount-big-box1 {
+    font-size: 20px;
+}
+
+.discount-big-box2 {
+    font-size: 60px;
+}
+
+.discount-big-box3 {
+    font-size: 60px;
+    padding-bottom: 8px;
+}
+
+.form-part {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 14px;
+    width: 98%;
+    margin-top: 20px;
+}
+
+
+
+
+.get-started-button {
+    background-color: white;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 25%;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+
+.get-started-button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+/* Second last box */
+
+
+.second-last-box {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    padding: 0px 31px;
+}
+
+
+.second-last-box1 {
+    width: 26%;
+}
+
+
+.second-last-box2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+
+
+
+
+.second-last-box2-two:hover {
+    text-decoration: underline;
+}
+
+.second-last-box2-three:hover {
+    text-decoration: underline;
+
+}
+
+.second-last-box2-four:hover {
+    text-decoration: underline;
+
+}
+
+.second-last-box3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 26px;
+}
+
+
+.second-last-box3-two:hover {
+    text-decoration: underline;
+}
+
+.second-last-box3-three:hover {
+    text-decoration: underline;
+}
+
+.second-last-box3-four:hover {
+    text-decoration: underline;
+}
+
+.second-last-box4 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 13px;
+}
+
+
+.second-last-box5 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 24px;
+}
+
+
+/* last block    */
+
+.last-block {
+    padding-top: 50px;
+    position: relative;
+}
+
+
+.last-block-box-one {
+    opacity: 0.6;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+}
+
+.last-block-box {
+    padding-top: 40px;
+    padding-left: 58px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 65px;
+    height: 80px;
+}
+
+.social-media-icons {
+    display: flex;
+    font-size: 22px;
+    width: 12%;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.fa-square-instagram:hover {
+    transform: scale(1.1);
+
+}
+
+.fa-facebook:hover {
+    transform: scale(1.1);
+
+}
+
+.fa-twitter:hover {
+    transform: scale(1.1);
+
+}
+
+
+.fa-linkedin:hover {
+    transform: scale(1.1);
+
+}
