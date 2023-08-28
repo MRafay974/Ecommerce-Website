@@ -178,164 +178,313 @@ div div a {
 }
 
 
-/* latest news boxes */
+/* Main Block */
 
-.main-heading{
+.main-block {
     position: relative;
-    text-align: center;
-    height: 160px
 }
 
-.main-heading-lp{
-    font-size: 52px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hr{
+.hr {
     position: absolute;
     width: 93%;
     left: 3%;
     opacity: 0.6;
 }
 
-
-.latest-news-boxes-4 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    height: 380px;
-    margin-bottom: 50px;
-
+.image {
+    padding-top: 73px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
-
-.latest-news-boxes-8 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    height: 380px;
-    margin-bottom: 50px;
-
-}
-
-
-.latest-news-boxes-12 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    height: 380px;
-    margin-bottom: 50px;
-
-}
-
-.latest-news-boxe1 {
-    flex: 1;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    position: relative;
+.actual-image {
     border-radius: 20px;
-    margin: 0px 10px 0px 10px;
-}
-
-
-.latest-news-boxe1:hover {
-    background-image: url();
-}
-
-
-
-.latest-news-para-heading {
-    position: absolute;
-    height: 100%;
     width: 100%;
 }
 
-.latest-news-boxe1-one {
+.headin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 166px;
+    justify-content: space-evenly;
+}
+
+.headin h1 {
+    font-size: 40px;
+}
+
+
+.headin p {
+    opacity: 0.6;
+}
+
+
+.detail-para {
+    padding-left: 16%;
+    padding-right: 13%;
+    padding-bottom: 50px;
+
+}
+
+.detail-para p {
+    padding-bottom: 15px;
+}
+
+/* blog part */
+
+
+.blog-part {
+    height: 185px;
+    padding-left: 16%;
+    padding-right: 7%;
+}
+
+.blog-part-hr {
     position: absolute;
-    font-size: 23px;
-    top: 18%;
-    left: 14%;
+    width: 72%;
+    left: 16%;
+    opacity: 0.6;
+}
+
+
+.share-block {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    font-size: 20px;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+
+.share-block h1 div {}
+
+/*  Response heading   */
+
+.response-block {
+    text-align: center;
+    font-size: 24px;
+    width: 48%;
+}
+
+/*  1st message box  */
+
+.first-message-block {
+
+    border-radius: 35px;
+    padding: 30px;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-right: 17%;
+    background-color: #F5F5F7;
+    height: 234px;
+}
+
+
+.first-message-one {
+    padding-bottom: 16px;
+}
+
+
+.first-message-one p {
+    opacity: 0.6;
+    padding-top: 10px;
 }
 
 
 
-.latest-news-boxe1-three {
+.first-message-block i {
+    font-size: 24px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
 
-    position: absolute;
-    top: 50%;
-    left: 12%;
+
+
+.first-message-block i:hover {
+
+    color: red;
+}
+
+/* child message  */
+
+.child-first-message {
+    border-radius: 35px;
+    padding: 30px;
+    margin-left: 21%;
+    margin-top: 20px;
+    margin-right: 17%;
+    background-color: #F5F5F7;
+    height: 234px;
+}
+
+.child-first-one {
+    padding-bottom: 16px;
+}
+
+
+.child-first-one p {
+    opacity: 0.6;
+    padding-top: 10px;
+}
+
+
+.child-first-message i {
+    font-size: 24px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+
+
+.child-first-message i:hover {
+    color: red;
+}
+
+
+/* second message */
+
+
+.second-message {
+    border-radius: 35px;
+    padding: 30px;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-right: 17%;
+    background-color: #F5F5F7;
+    height: 234px;
+}
+
+.second-message-one {
+    padding-bottom: 16px;
+}
+
+
+
+.second-message-one p {
+    opacity: 0.6;
+    padding-top: 10px;
+}
+
+
+
+.second-message i {
+    font-size: 24px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+
+
+.second-message i:hover {
+    color: red;
+}
+
+
+/*   Form part    */
+
+
+.form-parta {
+    height: 681px;
+    padding-top: 80px;
+}
+
+.frm-hading {
+    padding-left: 15%;
+}
+
+
+
+.frm-hading h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+
+.frm-hading p {
+    opacity: 0.6;
+    padding-bottom: 15px;
+}
+
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+}
+
+#name {
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.0);
+    background-color: #F5F5F7;
+    height: 60px;
+    font-size: 16px;
+    margin-bottom: 21px;
+}
+
+
+#email1 {
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.0);
+    background-color: #F5F5F7;
+    height: 60px;
+    font-size: 16px;
+    margin-left: 26px;
+}
+
+#website {
+    width: 83%;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.0);
+    background-color: #F5F5F7;
+    height: 60px;
+    font-size: 16px;
+    margin-bottom: 21px;
+}
+
+
+#comment {
+    width: 83%;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.0);
+    background-color: #F5F5F7;
+    height: 237px;
+    font-size: 16px;
+    margin-bottom: 21px;
 
 }
 
-.latest-news-boxe1-two {
-    position: absolute;
-    top: 38%;
-    left: 12%;
-}
 
-.latest-news-boxe1-four {
-    position: absolute;
-    top: 71%;
-    width: 70%;
-    height: 2%;
+#submit1 {
     background-color: blue;
-    left: 13%;
+    padding: 14px;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 27%;
 }
 
-.latest-news-boxe1-five {
-    position: absolute;
-    top: 83%;
-    left: 12%;
-    text-decoration: none;
-    font-size: 19px;
-    color: black;
-}
 
+#submit1:hover {
 
-.latest-news-boxe1-five:hover {
-    text-decoration: underline;
-}
+    color: white;
+    background-color: black;
 
-.arrow {
-    position: absolute;
-    left: 53%;
-    top: 82%;
-    font-size: 29px;
-    color: #000000;
 }
 
 
 
-.latest-news-boxe2 {
-    flex: 1;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    position: relative;
-    border-radius: 20px;
-    margin: 0px 10px 0px 10px;
 
-}
-
-
-.latest-news-boxe3 {
-    flex: 1;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    position: relative;
-    border-radius: 20px;
-    margin: 0px 10px 0px 10px;
-
-}
-
-
-.latest-news-boxe4 {
-    flex: 1;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    position: relative;
-    border-radius: 20px;
-    margin: 0px 10px 0px 10px;
-
-}
 
 
 

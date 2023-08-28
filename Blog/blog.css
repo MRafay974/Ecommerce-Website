@@ -1,0 +1,549 @@
+/*  Css reset   */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Top Black Bar   */
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 81px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.shop-logo {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: auto;
+    align-items: center;
+    justify-content: start;
+}
+
+.fa-cart-shopping {
+    font-size: 26px;
+    padding-right: 20px;
+}
+
+.first-block-top-bar {
+    font-size: 18px;
+}
+
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 300px;
+
+
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding-left: 13px;
+
+}
+
+.fa-phone-volume {
+    font-size: 20px;
+    padding-right: 14px;
+}
+
+.second-block-phone-number {
+    font-size: 19px;
+}
+
+
+.fa-envelope {
+    font-size: 20px;
+    padding-right: 14px;
+}
+
+.third-block-email {
+    font-size: 19px;
+}
+
+
+/* Navigation bar */
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 30px 50px 30px;
+}
+
+.website-logo {
+    width: 139px;
+    height: 56px;
+    padding-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px 0px 50px
+}
+
+nav ul li a {
+    font-size: 23px;
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 10px 0px 10px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.login-search-basket {
+    display: flex;
+    flex-direction: row;
+    width: 670px;
+    padding: 0px 20px 0px 160px;
+    font-size: 21px;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+
+
+div div a {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-decoration: none
+}
+
+.fa-user {
+    padding-right: 10px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+.fa-magnifying-glass {
+
+    padding-right: 10px;
+}
+
+
+
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex: 1;
+}
+
+.fa-bag-shopping {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+/* latest news boxes */
+
+.main-heading{
+    position: relative;
+    text-align: center;
+    height: 160px
+}
+
+.main-heading-lp{
+    font-size: 52px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr{
+    position: absolute;
+    width: 93%;
+    left: 3%;
+    opacity: 0.6;
+}
+
+
+.latest-news-boxes-4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 380px;
+    margin-bottom: 50px;
+
+}
+
+
+.latest-news-boxes-8 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 380px;
+    margin-bottom: 50px;
+
+}
+
+
+.latest-news-boxes-12 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 380px;
+    margin-bottom: 50px;
+
+}
+
+.latest-news-boxe1 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+
+
+
+
+
+.latest-news-para-heading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.latest-news-boxe1-one {
+    position: absolute;
+    font-size: 23px;
+    top: 18%;
+    left: 14%;
+}
+
+
+
+.latest-news-boxe1-three {
+
+    position: absolute;
+    top: 50%;
+    left: 12%;
+
+}
+
+.latest-news-boxe1-two {
+    position: absolute;
+    top: 38%;
+    left: 12%;
+}
+
+.latest-news-boxe1-four {
+    position: absolute;
+    top: 71%;
+    width: 70%;
+    height: 2%;
+    background-color: blue;
+    left: 13%;
+}
+
+.latest-news-boxe1-five {
+    position: absolute;
+    top: 83%;
+    left: 12%;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+}
+
+
+.latest-news-boxe1-five:hover {
+    text-decoration: underline;
+}
+
+.arrow {
+    position: absolute;
+    left: 53%;
+    top: 82%;
+    font-size: 29px;
+    color: #000000;
+}
+
+
+
+.latest-news-boxe2 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+
+.latest-news-boxe3 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+
+.latest-news-boxe4 {
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+
+
+/* Discount box   */
+
+
+.discount-box {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.discount-big-box {
+    display: flex;
+    flex-direction: column;
+    height: 573px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+    border-radius: 90px;
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-1920x1080-1455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.discount-big-box1 {
+    font-size: 20px;
+}
+
+.discount-big-box2 {
+    font-size: 60px;
+}
+
+.discount-big-box3 {
+    font-size: 60px;
+    padding-bottom: 8px;
+}
+
+.form-part {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 14px;
+    width: 98%;
+    margin-top: 20px;
+}
+
+
+
+
+.get-started-button {
+    background-color: white;
+    border-radius: 74px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 25%;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+
+.get-started-button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+/* Second last box */
+
+
+.second-last-box {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    padding: 0px 31px;
+}
+
+
+.second-last-box1 {
+    width: 26%;
+}
+
+
+.second-last-box2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+
+
+
+
+.second-last-box2-two:hover {
+    text-decoration: underline;
+}
+
+.second-last-box2-three:hover {
+    text-decoration: underline;
+
+}
+
+.second-last-box2-four:hover {
+    text-decoration: underline;
+
+}
+
+.second-last-box3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 26px;
+}
+
+
+.second-last-box3-two:hover {
+    text-decoration: underline;
+}
+
+.second-last-box3-three:hover {
+    text-decoration: underline;
+}
+
+.second-last-box3-four:hover {
+    text-decoration: underline;
+}
+
+.second-last-box4 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 13px;
+}
+
+
+.second-last-box5 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 24px;
+}
+
+
+/* last block    */
+
+.last-block {
+    padding-top: 50px;
+    position: relative;
+}
+
+
+.last-block-box-one {
+    opacity: 0.6;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+}
+
+.last-block-box {
+    padding-top: 40px;
+    padding-left: 58px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 65px;
+    height: 80px;
+}
+
+.social-media-icons {
+    display: flex;
+    font-size: 22px;
+    width: 12%;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.fa-square-instagram:hover {
+    transform: scale(1.1);
+
+}
+
+.fa-facebook:hover {
+    transform: scale(1.1);
+
+}
+
+.fa-twitter:hover {
+    transform: scale(1.1);
+
+}
+
+
+.fa-linkedin:hover {
+    transform: scale(1.1);
+
+}

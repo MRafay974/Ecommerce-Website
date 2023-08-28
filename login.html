@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link href="contact.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Contact</title>
+    <script src="login.js"></script>
+
+    <title>Login</title>
 </head>
 
 <body>
-
     <header>
         <div class="top-bar">
             <div class="shop-logo">
@@ -35,7 +36,6 @@
                 <img src="https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10047.png"
                     width="138px" height="56px">
             </div>
-
 
             <ul class="navbar">
                 <li><a href="file:///E:/Online-Shopping-website/index.html">Home</a></li>
@@ -67,85 +67,37 @@
 
         </nav>
 
+        <hr class="hr">
+
+
     </header>
 
     <main>
 
+        <section id="login-block">
+            <div class="login-box">
+                <h1>Login</h1>
+                <form id="formmm">
+                    <label for="name" class="un">Username or email address *</label>
+                    <input id="name" type="text" required>
 
-        <section class="map-block">
-            <hr class="map-box-hr">
-            <div class="map-box">
-                <div class="left-part">
-                    <div class="left-part-a">
-                        <h1 class="left-part-a-one">Contact With Us</h1>
-                        <h1 class="left-part-a-two">Don't Google Design Questions</h1>
+                    <label for="password" class="pw">Password *</label>
+                    <input id="password" type="password" required>
 
-                        <p class="left-part-a-four">Your email address will not be published.Required fields are marked*
-                        </p>
+                    <button class="log-in" type="submit">Log in</button>
+
+                </form>
+                <div class="forgot-pass">
+                    <div id="tick-and-rm">
+                        <div class="tick-box" id="tickBox">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <p>Remember me</p>
                     </div>
 
-                    <form class="frm-block">
-
-                        <label for="name"></label>
-                        <input id="name" type="text" placeholder="Your Name *" required>
-
-                        <label for="email1"></label>
-                        <input id="email1" type="email" placeholder="Your Email *" required>
-
-
-
-
-                        <textarea cols="40" rows="10" class="tex-area" placeholder="Question *" required></textarea>
-
-                        <button type="submit" class="buton">Send A Message</button>
-
-                    </form>
-
-                </div>
-                <div class="right-part">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.0666281187837!2d73.02386367435324!3d33.60357567332926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df946f24e9fa83%3A0x5c0a503ad0bd55b4!2sEziline%20Software%20House%20Pvt%20Ltd!5e0!3m2!1sen!2s!4v1690901950882!5m2!1sen!2s"
-                        style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="#" class="lyp">Lost your password?</a>
                 </div>
 
-            </div>
-
-
-        </section>
-
-        <section class="contact-ways">
-
-            <div class="contact-ways-box">
-                <div class="contact-ways-box1">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <div class="contact-ways-box1-one">
-                        <h1 class="heading">Meet Us In Office :</h1>
-                        <p class="para">Patricia C. 4401 Waldeck Street</p>
-                        <p class="para">Grapevine Nashville, Tx 76051</p>
-                    </div>
-
-                </div>
-                <div class="vertical"></div>
-                <div class="contact-ways-box2">
-                    <i class="fa-solid fa-square-envelope"></i>
-                    <div class="contact-ways-box1-two">
-                        <h1 class="heading">Our Email Address :</h1>
-                        <p class="para">Info@yourdomain.com</p>
-                        <p class="para">Info@dataanalytics.com</p>
-                    </div>
-
-                </div>
-                <div class="vertical"></div>
-                <div class="contact-ways-box3">
-                    <i class="fa-solid fa-phone"></i>
-                    <div class="contact-ways-box1-three">
-                        <h1 class="heading">Contact Numbers :</h1>
-                        <p class="para"> +99 (0) 101 0000 888</p>
-                        <p class="para"> +99 (0) 555 6759 126</p>
-                    </div>
-
-                </div>
             </div>
 
         </section>
@@ -166,6 +118,7 @@
             </div>
 
         </section>
+
 
     </main>
 
@@ -242,7 +195,4 @@
 
 
 
-
 </body>
-
-</html>

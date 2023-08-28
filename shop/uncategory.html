@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link href="contact.css" rel="stylesheet">
+    <link href="uncategory.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Contact</title>
+    <script src="shop.js"> </script>
+    <title>Un-categorized</title>
 </head>
 
 <body>
@@ -71,81 +72,143 @@
 
     <main>
 
-
-        <section class="map-block">
-            <hr class="map-box-hr">
-            <div class="map-box">
+        <section class="items-block">
+            <hr class="hr">
+            <div class="items-box">
                 <div class="left-part">
-                    <div class="left-part-a">
-                        <h1 class="left-part-a-one">Contact With Us</h1>
-                        <h1 class="left-part-a-two">Don't Google Design Questions</h1>
 
-                        <p class="left-part-a-four">Your email address will not be published.Required fields are marked*
-                        </p>
-                    </div>
-
-                    <form class="frm-block">
-
-                        <label for="name"></label>
-                        <input id="name" type="text" placeholder="Your Name *" required>
-
-                        <label for="email1"></label>
-                        <input id="email1" type="email" placeholder="Your Email *" required>
-
-
-
-
-                        <textarea cols="40" rows="10" class="tex-area" placeholder="Question *" required></textarea>
-
-                        <button type="submit" class="buton">Send A Message</button>
-
+                    <form class="search-form">
+                        <h1>Search</h1>
+                        <label for="search"></label>
+                        <input type="text" id="search" placeholder="Search Products..." required>
+                        <button class="buton" type="submit">Search</button>
                     </form>
 
+                    <div class="different-cat">
+                        <h1>Category</h1>
+                        <ul class="different-cat1">
+                            <li class="cat cat1">
+                                <a href="file:///E:/Online-Shopping-website/shop/Accessories.html#">Accesories</a>
+                                <span class="braket1">(3)</span>
+                            </li>
+
+                            <li class=" cat cat2">
+                                <a href="file:///E:/Online-Shopping-website/shop/Camera-Audio.html">Camera & Audio</a>
+                                <span class="braket2">(2)</span>
+                            </li>
+
+                            <li class=" cat cat3">
+                                <a href="file:///E:/Online-Shopping-website/shop/Car-Industrial.html">Car &
+                                    Industrial</a>
+                                <span class="braket3">(3)</span>
+                            </li>
+
+                            <li class=" cat cat4">
+                                <a href="file:///E:/Online-Shopping-website/shop/headphone.html">Headphones</a>
+                                <span class="braket4">(4)</span>
+                            </li>
+
+                            <li class=" cat cat5">
+                                <a href="file:///E:/Online-Shopping-website/shop/laptop.html">Laptops</a>
+                                <span class="braket5">(4)</span>
+                            </li>
+
+                            <li class=" cat cat6">
+                                <a href="file:///E:/Online-Shopping-website/shop/smarthome.html">Smart Home</a>
+                                <span class="braket6">(4)</span>
+                            </li>
+
+                            <li class=" cat cat7">
+                                <a href="file:///E:/Online-Shopping-website/shop/Smartphone.html">Smartphones</a>
+                                <span class="braket7">(4)</span>
+                            </li>
+
+                            <li class=" cat cat8">
+                                <a href="file:///E:/Online-Shopping-website/shop/Tv-display.html">TV And Display</a>
+                                <span class="braket8">(4)</span>
+                            </li>
+
+                            <li class=" cat cat9">
+                                <a href="file:///E:/Online-Shopping-website/shop/uncategory.html">Uncategorized</a>
+                                <span class="braket9">(0)</span>
+                            </li>
+
+                            <li class=" cat cat10">
+                                <a href="file:///E:/Online-Shopping-website/shop/Watches.html">Watches & Eyewear</a>
+                                <span class="braket10">(4)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="Phones-cat">
+                        <h1>Brand</h1>
+                        <ul class="different-phone">
+                            <li class="phone1 phonea">
+                                <a href="file:///E:/Online-Shopping-website/shop/apple.html">Apple</a>
+                                <span class="braket1">(4)</span>
+                            </li>
+
+                            <li class="phone1 phoneb">
+                                <a href="file:///E:/Online-Shopping-website/shop/bosch.html">Bosch</a>
+                                <span class="braket2">(4)</span>
+                            </li>
+
+                            <li class="phone1 phonec">
+                                <a href="file:///E:/Online-Shopping-website/shop/huawei.html">Huawei</a>
+                                <span class="braket3">(4)</span>
+                            </li>
+
+                            <li class="phone1 phoned">
+                                <a href="file:///E:/Online-Shopping-website/shop/Lg.html">Lg</a>
+                                <span class="braket4">(4)</span>
+                            </li>
+
+                            <li class="phone1 phonee">
+                                <a href="file:///E:/Online-Shopping-website/shop/samsung.html">Samsung</a>
+                                <span class="braket5">(4)</span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="price-indicator">
+                        <h1>Choose Price</h1>
+                        <div class="slider-block">
+                            <input type="range" min="250" max="600" value="300" id="slider">
+
+                            <div class="price-label">
+                                <span class="top">$250</span>
+                                <span class="bottom">$600</span>
+                            </div>
+                            <a href="#">
+                                <button class="filter-button">Filter</button>
+                            </a>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
                 </div>
+
                 <div class="right-part">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.0666281187837!2d73.02386367435324!3d33.60357567332926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df946f24e9fa83%3A0x5c0a503ad0bd55b4!2sEziline%20Software%20House%20Pvt%20Ltd!5e0!3m2!1sen!2s!4v1690901950882!5m2!1sen!2s"
-                        style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-
-            </div>
-
-
-        </section>
-
-        <section class="contact-ways">
-
-            <div class="contact-ways-box">
-                <div class="contact-ways-box1">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <div class="contact-ways-box1-one">
-                        <h1 class="heading">Meet Us In Office :</h1>
-                        <p class="para">Patricia C. 4401 Waldeck Street</p>
-                        <p class="para">Grapevine Nashville, Tx 76051</p>
+                    <div class="fp-and-button-top">
+                        <h1>Featured Products</h1>
+                        <button class="sort-button">Sort By:Default</button>
                     </div>
 
-                </div>
-                <div class="vertical"></div>
-                <div class="contact-ways-box2">
-                    <i class="fa-solid fa-square-envelope"></i>
-                    <div class="contact-ways-box1-two">
-                        <h1 class="heading">Our Email Address :</h1>
-                        <p class="para">Info@yourdomain.com</p>
-                        <p class="para">Info@dataanalytics.com</p>
-                    </div>
+                   <h1>Nothing To Show</h1>
+
 
                 </div>
-                <div class="vertical"></div>
-                <div class="contact-ways-box3">
-                    <i class="fa-solid fa-phone"></i>
-                    <div class="contact-ways-box1-three">
-                        <h1 class="heading">Contact Numbers :</h1>
-                        <p class="para"> +99 (0) 101 0000 888</p>
-                        <p class="para"> +99 (0) 555 6759 126</p>
-                    </div>
 
-                </div>
             </div>
 
         </section>
@@ -167,8 +230,8 @@
 
         </section>
 
-    </main>
 
+    </main>
 
     <footer>
 
@@ -239,8 +302,6 @@
 
 
     </footer>
-
-
 
 
 </body>
