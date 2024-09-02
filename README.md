@@ -13,7 +13,9 @@ JavaScript: Adds interactivity to the website. It handles user actions like addi
 
 
 Installation
+
 To run this project locally: 
+
 Clone the repository:git clone https://github.com/MRafay974/Ecommerce-Website.git
 
 Open index.html in your web browser to view the website.
@@ -23,6 +25,9 @@ You can use a live server extension in VSCode or simply double-click the index.h
 
 
 Future Enhancements
+
 Backend Integration: Future updates will include backend integration for user authentication, product management, and order processing.
+
 Payment Gateway: Implementation of a payment gateway to handle secure transactions.
+
 User Accounts: Allow users to create accounts, save favorite items, and view order history.
