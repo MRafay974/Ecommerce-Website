@@ -32,7 +32,6 @@
   padding-right: 20px;
 }
 
-
 .phone {
   display: flex;
   flex-direction: row;
@@ -54,11 +53,9 @@
   padding-right: 14px;
 }
 
-
 .fa-envelope {
   padding-right: 14px;
 }
-
 
 /* Navigation bar */
 
@@ -350,10 +347,13 @@ main {
   height: 700px;
   border-radius: 40px;
   width: 28%;
-  background: transparent radial-gradient(closest-side at 62% 71%,
+  background: transparent
+    radial-gradient(
+      closest-side at 62% 71%,
       #cccccc 0%,
       #b7b8bc 44%,
-      #86888c 100%);
+      #86888c 100%
+    );
   color: white;
   position: relative;
 }
@@ -560,7 +560,8 @@ main {
   margin-left: 23px;
 }
 
-.earphone-button {}
+.earphone-button {
+}
 
 .shop-by-category-earphone {
   background-color: rgb(255, 203, 112);
@@ -729,7 +730,8 @@ main {
   font-size: 18px;
 }
 
-.box2-dollars {}
+.box2-dollars {
+}
 
 .box2-last-text {
   padding: 5px 5px 0px 35px;
@@ -2108,10 +2110,13 @@ main {
     height: 611px;
     border-radius: 50px;
     width: 100%;
-    background: transparent radial-gradient(closest-side at 62% 71%,
+    background: transparent
+      radial-gradient(
+        closest-side at 62% 71%,
         #cccccc 0%,
         #b7b8bc 44%,
-        #86888c 100%);
+        #86888c 100%
+      );
     color: white;
     position: relative;
   }
@@ -2384,9 +2389,7 @@ main {
     z-index: 1000;
     transition: opacity 0.3s ease;
     /* Add transition property */
-
   }
-
 
   .navbar {
     display: flex;
@@ -2405,10 +2408,7 @@ main {
   }
 
   .navbar a:hover {
-
     font-weight: bold;
-
-
   }
 
   .login-search-basket {
@@ -2416,19 +2416,13 @@ main {
     width: 74%;
   }
 
-
-
   .hamburger {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-
   }
-
-
-
 
   .line {
     width: 23px;
@@ -2446,14 +2440,11 @@ main {
     background-color: #000000;
     color: #ffffff;
     flex-direction: column;
-    font-size: 13px
+    font-size: 13px;
   }
-
 }
 
-
 @media screen and (max-width: 492px) {
-
   #email {
     padding: 5px;
     width: 62%;
@@ -2483,14 +2474,11 @@ main {
     height: 300px;
   }
 
-
   .second-last-box {
-
     font-size: 10px;
   }
 
   .last-block {
-
     font-size: 12px;
   }
 
@@ -2506,8 +2494,6 @@ main {
     font-size: 10px;
   }
 
-
-
   .arrow {
     position: absolute;
     left: 54%;
@@ -2518,7 +2504,6 @@ main {
     padding: 8px;
     border: none;
   }
-
 
   .latest-news-boxe1-five {
     position: absolute;
@@ -2561,24 +2546,21 @@ main {
     left: 43%;
     top: 25%;
     width: 64%;
-}
+  }
 
-.login-search-basket {
-  font-size: 0px;
-  
-}
+  .login-search-basket {
+    font-size: 0px;
+  }
 
-.iphone-12-p {
-  font-size: 13px;
+  .iphone-12-p {
+    font-size: 13px;
+  }
 
-}
+  .iphone-12-h {
+    font-size: 20px;
+  }
 
-.iphone-12-h {
-  font-size: 20px;
-}
-
-.shop-by-category1{
-  width: 46%;
-}
-
+  .shop-by-category1 {
+    width: 46%;
+  }
 }

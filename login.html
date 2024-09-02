@@ -1,198 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link href="login.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="login.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <script src="login.js"></script>
 
     <title>Login</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="top-bar">
-            <div class="shop-logo">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p class="first-block-top-bar">World's Fastest Online Shopping Destination</p>
-            </div>
-
-            <div class="phone">
-                <i class="fa-solid fa-phone-volume"></i>
-                <p class="second-block-phone-number">088-888-8888</p>
-            </div>
-            <div class="mail">
-                <i class="fa-sharp fa-solid fa-envelope"></i>
-                <p class="third-block-email">info@phlox.pro</p>
-            </div>
+      <div class="top-bar">
+        <div class="shop-logo">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="first-block-top-bar">
+            World's Fastest Online Shopping Destination
+          </p>
         </div>
 
+        <div class="phone">
+          <i class="fa-solid fa-phone-volume"></i>
+          <p class="second-block-phone-number">088-888-8888</p>
+        </div>
+        <div class="mail">
+          <i class="fa-sharp fa-solid fa-envelope"></i>
+          <p class="third-block-email">info@phlox.pro</p>
+        </div>
+      </div>
 
-        <nav class="navigation">
-            <div class="website-logo">
-                <img src="https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10047.png"
-                    width="138px" height="56px">
-            </div>
+      <nav class="navigation">
+        <div class="website-logo">
+          <img
+            src="https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10047.png"
+            width="138px"
+            height="56px"
+          />
+        </div>
 
-            <ul class="navbar">
-                <li><a href="file:///E:/Online-Shopping-website/index.html">Home</a></li>
-                <li><a href="file:///E:/Online-Shopping-website/About.html">About</a></li>
-                <li><a href="file:///E:/Online-Shopping-website/shop.html">Shop</a></li>
-                <li><a href="file:///E:/Online-Shopping-website/blog.html">Blog</a></li>
-                <li><a href="file:///E:/Online-Shopping-website/Contact.html">Contact</a></li>
-            </ul>
+        <ul class="navbar">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="About.html">About</a>
+          </li>
+          <li>
+            <a href="shop/shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="Blog/blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="Contact.html">Contact</a>
+          </li>
+        </ul>
 
+        <div class="login-search-basket">
+          <div class="login">
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              <p class="log">Login</p>
+            </a>
+          </div>
 
-            <div class="login-search-basket">
-                <div class="login">
-                    <a href="#">
-                        <i class="fa-solid fa-user"></i>
-                        <p class="log">Login</p>
-                    </a>
-                </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p class="sear">Search</p>
+          </div>
 
-                <div class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <p class="sear">Search</p>
-                </div>
+          <div class="basket">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p class="bask">Basket</p>
+          </div>
+        </div>
+      </nav>
 
-                <div class="basket">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                    <p class="bask">Basket</p>
-                </div>
-            </div>
-
-        </nav>
-
-        <hr class="hr">
-
-
+      <hr class="hr" />
     </header>
 
     <main>
+      <section id="login-block">
+        <div class="login-box">
+          <h1>Login</h1>
+          <form id="formmm">
+            <label for="name" class="un">Username or email address *</label>
+            <input id="name" type="text" required />
 
-        <section id="login-block">
-            <div class="login-box">
-                <h1>Login</h1>
-                <form id="formmm">
-                    <label for="name" class="un">Username or email address *</label>
-                    <input id="name" type="text" required>
+            <label for="password" class="pw">Password *</label>
+            <input id="password" type="password" required />
 
-                    <label for="password" class="pw">Password *</label>
-                    <input id="password" type="password" required>
+            <button class="log-in" type="submit">Login</button>
+          </form>
+          <a class="Sign-Up" href="signup.html">SignUp</a>
 
-                    <button class="log-in" type="submit">Log in</button>
-
-                </form>
-                <div class="forgot-pass">
-                    <div id="tick-and-rm">
-                        <div class="tick-box" id="tickBox">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <p>Remember me</p>
-                    </div>
-
-                    <a href="#" class="lyp">Lost your password?</a>
-                </div>
-
+          <div class="forgot-pass">
+            <div id="tick-and-rm">
+              <div class="tick-box" id="tickBox">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <p>Remember me</p>
             </div>
 
-        </section>
+            <a href="#" class="lyp">Lost your password?</a>
+          </div>
+        </div>
+      </section>
 
-        <section class="discount-box">
+      <section class="discount-box">
+        <div class="discount-big-box">
+          <p class="discount-big-box1">Sign Up Newsletter & Promotions!</p>
+          <h1 class="discount-big-box2">Get 25% Discount</h1>
+          <p class="discount-big-box3">On Your Next Purchase</p>
 
-            <div class="discount-big-box">
-                <p class="discount-big-box1">Sign Up Newsletter & Promotions!</p>
-                <h1 class="discount-big-box2">Get 25% Discount</h1>
-                <p class="discount-big-box3">On Your Next Purchase</p>
-
-                <form class="form-part">
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Enter Your E-mail" required>
-                    <button class="get-started-button" type="submit">Get Started</button>
-                </form>
-
-            </div>
-
-        </section>
-
-
+          <form class="form-part">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Your E-mail"
+              required
+            />
+            <button class="get-started-button" type="submit">
+              Get Started
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
-
     <footer>
+      <section class="second-last-block">
+        <div class="second-last-box">
+          <div class="second-last-box1">
+            <img
+              class="second-last-box1-image"
+              src="https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10047.png"
+            />
+          </div>
+          <div class="second-last-box2">
+            <h1 class="second-last-box2-one">Visit Link</h1>
+            <a class="second-last-box2-two" href="#">Shop</a>
+            <a class="second-last-box2-three" href="#">Privacy</a>
+            <a class="second-last-box2-four" href="#">Terms & Condition</a>
+          </div>
+          <div class="second-last-box3">
+            <h1 class="second-last-box3-one">Company</h1>
+            <a class="second-last-box3-two" href="index.html">Home</a>
+            <a class="second-last-box3-three" href="About.html">About Us</a>
+            <a class="second-last-box3-four" href="Contact.html">Contact Us</a>
+          </div>
+          <div class="second-last-box4">
+            <h1 class="second-last-box4-one">Contact</h1>
+            <p class="second-last-box4-two">+99 (0) 101 0000 888</p>
+            <p class="second-last-box4-three">Info@yourdomain.com</p>
+          </div>
+          <div class="second-last-box5">
+            <h1 class="second-last-box5-one">Address</h1>
+            <p class="second-last-box5-two">Patricia Amedee 4401</p>
+            <p class="second-last-box5-three">Waldeck Street Grapevine</p>
+            <p class="second-last-box5-four">Nashville, Tx 76051</p>
+          </div>
+        </div>
+      </section>
 
-        <section class="second-last-block">
-
-            <div class="second-last-box">
-                <div class="second-last-box1">
-                    <img class="second-last-box1-image"
-                        src="https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Group-10047.png">
-                </div>
-                <div class="second-last-box2">
-                    <h1 class="second-last-box2-one">Visit Link</h1>
-                    <a class="second-last-box2-two" href="#">Shop</a>
-                    <a class="second-last-box2-three" href="#">Privacy</a>
-                    <a class="second-last-box2-four" href="#">Terms & Condition</a>
-
-                </div>
-                <div class="second-last-box3">
-                    <h1 class="second-last-box3-one">Company</h1>
-                    <a class="second-last-box3-two" href="#">Home</a>
-                    <a class="second-last-box3-three" href="#">About Us</a>
-                    <a class="second-last-box3-four" href="#">Contact Us</a>
-                </div>
-                <div class="second-last-box4">
-                    <h1 class="second-last-box4-one">Contact</h1>
-                    <p class="second-last-box4-two">+99 (0) 101 0000 888</p>
-                    <p class="second-last-box4-three">Info@yourdomain.com</p>
-                </div>
-                <div class="second-last-box5">
-                    <h1 class="second-last-box5-one">Address</h1>
-                    <p class="second-last-box5-two">Patricia Amedee 4401</p>
-                    <p class="second-last-box5-three">Waldeck Street Grapevine</p>
-                    <p class="second-last-box5-four">Nashville, Tx 76051</p>
-                </div>
-
-            </div>
-
-
-        </section>
-
-        <section class="last-block">
-            <hr class="last-block-box-one">
-            <div class="last-block-box">
-
-                <p class="last-block-box-two">© 2023 By Averta. All rights reserved.</p>
-                <div class="social-media-icons">
-                    <a href="#">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-
+      <section class="last-block">
+        <hr class="last-block-box-one" />
+        <div class="last-block-box">
+          <p class="last-block-box-two">
+            © 2023 By Averta. All rights reserved.
+          </p>
+          <div class="social-media-icons">
+            <a href="#">
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
     </footer>
-
-
-
-</body>
+  </body>
+</html>
