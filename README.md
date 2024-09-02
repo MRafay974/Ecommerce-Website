@@ -1,8 +1,10 @@
 Ecommerce Website
+
 This project is a fully functional eCommerce website built using HTML, CSS, and JavaScript. The website is designed to offer a seamless shopping experience with a user-friendly interface, responsive design, and dynamic features that enhance user interaction.
 
 
 Technologies Used
+
 HTML: Provides the structure of the website, including the layout and the different sections like the header, footer, product listings, and more.
 
 CSS: Styles the website, ensuring it is visually appealing and responsive. CSS is used for layout control, animations, transitions, and more.
